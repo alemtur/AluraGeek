@@ -1,85 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>AluraGeek - Inicio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
+      <div class="cuerpo__cabecera">
         <div class="cabecera">
-            <div class="cabecera__titulo_busqueda">
-                <img class="cabecera__imagen" src="" alt="">
-                <h3 class="cabecera__titulo">AluraGeek</h3>
-            <input class="cabecera__input"type="text">
+          <div class="cabecera__titulo_busqueda">
+            <img
+              class="cabecera__imagen"
+              src="./img/home/logo_joys.png"
+              alt="Logo AluraGeek"
+            />
+            <h2 class="cabecera__titulo">
+              Alura<span class="cabecera__titulo_2">Geek</span>
+            </h2>
+            <div class="cabecera__div_input">
+              <input class="cabecera__input" type="text" placeholder="¿Qué deseas buscar?"/>
+              <img src="./img/home/search_icon.png" alt="Icono de búsqueda" class="cabecera__icono">
             </div>
-            <button class="cabecera__botonLogin"></button>
+          </div>
+          <button class="cabecera__botonLogin">Login</button>
         </div>
+      </div>
+      <div class="cabecera_sub__container">
         <div class="cabecera_sub">
-            <h1 class="cabecera_sub__titulo">
-
-            </h1>
-            <h3 class="cabecera_sub__subtitulo">
-
-            </h3>
-            <button class="cabecera_sub__ver"></button>
-        </div>
+        <h1 class="cabecera_sub__titulo">Febrero Promocional</h1>
+        <h2 class="cabecera_sub__subtitulo">Productos seleccionados con 33% de descuento</h2>
+        <button class="cabecera_sub__botonVer">Ver Consolas</button>
+      </div>
+      </div>
     </header>
     <main>
-        <div class="linea_productoUno">
-            <div class="linea_productoUno__header">
-                <h3 class="linea_productoUno__titulo"></h3>
-                <button class="linea_productoUno__boton"></button>
-            </div>
-            <div class="linea_productoUno__productos">
-
-            </div>
+      <div class="linea_producto">
+        <div class="linea_producto__header">
+          <h2 class="linea_producto__titulo">Star Wars</h2>
+          <button class="linea_producto__boton"><a href="http://">Ver todo</a><img src="./img/home/arrow_icon.png" alt="Icono flecha" class="linea_producto__icono"></button>
         </div>
-        <div class="linea_productoDos">
-            <div class="linea_productoDos__header">
-                <h3 class="linea_productoDos__titulo"></h3>
-                <button class="linea_productoDos__boton"></button>
-            </div>
-            <div class="linea_productoDos__productos">
-                
-            </div>
+        <div class="linea_producto__productos"></div>
+      </div>
+      <div class="linea_producto">
+        <div class="linea_producto__header">
+          <h2 class="linea_producto__titulo">Star Wars</h2>
+          <button class="linea_producto__boton"><a href="http://">Ver todo</a><img src="./img/home/arrow_icon.png" alt="Icono flecha" class="linea_producto__icono"></button>
         </div>
-        <div class="linea_productoTres">
-            <div class="linea_productoTres__header">
-                <h3 class="linea_productoTres__titulo"></h3>
-                <button class="linea_productoTres__boton"></button>
-            </div>
-            <div class="linea_productoTres__productos">
-                
-            </div>
+        <div class="linea_producto__productos"></div>
+      </div>
+      <div class="linea_producto">
+        <div class="linea_producto__header">
+          <h2 class="linea_producto__titulo">Star Wars</h2>
+          <button class="linea_producto__boton"><a href="http://">Ver todo</a><img src="./img/home/arrow_icon.png" alt="Icono flecha" class="linea_producto__icono"></button>
         </div>
+        <div class="linea_producto__productos"></div>
+      </div>
+     
     </main>
     <footer>
-        <div class="footer">
-            <img src="" alt="" class="footer__logo">
-            <ul class="footer__links">
-                <li class="footer__links_linkItem">Quienes somos</li>
-                <li class="footer__links_linkItem">Política de privacidad</li>
-                <li class="footer__links_linkItem">Programa de fidelidad</li>
-                <li class="footer__links_linkItem">Nuestras tiendas</li>
-                <li class="footer__links_linkItem">Quiero ser franquiciado</li>
-                <li class="footer__links_linkItem">Anuncie aquí</li>
-            </ul>
-            <form class="footer__formulario" action="">
-                <h3 class="footer__formulario_titulo">Hable con nosotros</h3>
-                <fieldset>
-                    <input type="text" class="footer__formulario_nombre" placeholder="Nombre">
-                    <textarea name="" id="" cols="30" rows="10" class="footer__formulario_mensaje" placeholder="Escribe tu mensaje"></textarea>
-                </fieldset>
-                <button class="footer__formulario_boton">Enviar mensaje</button>
-            </form>
-        </div>
-        <div class="leyenda">
-            <h3 class="copyright">Desarrollado por Alejandro Turtola para Alura Latam</h3>
-            <h4 class="year">2023</h4>
-        </div>
+      <div class="footer">
+        <img src="" alt="" class="footer__logo" />
+        <ul class="footer__links">
+          <li class="footer__links_linkItem">Quienes somos</li>
+          <li class="footer__links_linkItem">Política de privacidad</li>
+          <li class="footer__links_linkItem">Programa de fidelidad</li>
+          <li class="footer__links_linkItem">Nuestras tiendas</li>
+          <li class="footer__links_linkItem">Quiero ser franquiciado</li>
+          <li class="footer__links_linkItem">Anuncie aquí</li>
+        </ul>
+        <form class="footer__formulario" action="">
+          <h3 class="footer__formulario_titulo">Hable con nosotros</h3>
+          <fieldset>
+            <input
+              type="text"
+              class="footer__formulario_nombre"
+              placeholder="Nombre"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="footer__formulario_mensaje"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+          </fieldset>
+          <button class="footer__formulario_boton">Enviar mensaje</button>
+        </form>
+      </div>
+      <div class="leyenda">
+        <h3 class="copyright">
+          Desarrollado por Alejandro Turtola para Alura Latam
+        </h3>
+        <h4 class="year">2023</h4>
+      </div>
     </footer>
     <script></script>
-</body>
+  </body>
 </html>
