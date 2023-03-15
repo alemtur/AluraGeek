@@ -28,9 +28,7 @@
     align-items: center;
   }
 
-  .footer_container_links {
-    
-  }
+  
 
   .footer__links {
     list-style: none;
@@ -108,4 +106,28 @@
 }
 
 @media screen and (max-width: 360px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__container_logo_links {
+    width: 60vw;
+    align-items: center;
+  }
+
+  .footer_container_form {
+    width: 95vw;
+  }
+
+  .footer__formulario {
+    width: 95vw;
+  }
+
+  .formulario__boton {
+    width: 25vw;
+    height: 1vh;
+       
+  }
+
 }
