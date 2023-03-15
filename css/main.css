@@ -32,7 +32,20 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .linea_producto {
+    width: 95vw;
+    
+  }
+
 }
 
 @media screen and (max-width: 360px) {
+  
+  
+
+  .linea_producto__icono {
+    height: 0.8vh;
+    
+  }
 }
