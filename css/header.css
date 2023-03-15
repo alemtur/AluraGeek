@@ -86,8 +86,7 @@
 
   .cabecera_sub__container {
     display: flex;
-
-    height: 34vh;
+    height: 30vh;
     background-image: url(../img/home/banner.png);
     background-repeat: no-repeat;
     align-items: flex-end;
@@ -129,6 +128,61 @@
 }
 
 @media screen and (max-width: 768px) {
+  
+  /* CABECERA */
+  .cuerpo__cabecera {
+    height: 6vh;
+  }  
+  
+  .cabecera {
+    width: 95vw;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cabecera__imagen {
+    height: 30px;
+  }
+
+  .cabecera__titulo {
+    margin-right: 1rem;
+    color: #2a7ae4;
+  }
+
+  .cabecera__botonLogin {
+    
+    height: 1.5vh;
+    font-size: 0.9rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.01rem;
+    padding: 0.6rem;
+    background-color: white;
+    color: #2a7ae4;
+    transition: background-color 0.5s;
+  }
+
+  /* CABECERA SUB */
+
+  .cabecera_sub__container {
+    
+    width: 100vw;   
+    background-position: center;
+    justify-content: left;
+    padding-left: 2vw;
+    
+  }
+
+  .cabecera_sub {
+    width: 95vw;
+  }
+
+  .cabecera_sub__botonVer {
+    height: 1.5vh;
+    font-size: 0.9rem;
+    padding: 0.6rem;    
+  }
+
 }
 
 @media screen and (max-width: 360px) {

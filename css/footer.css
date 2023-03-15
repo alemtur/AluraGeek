@@ -15,15 +15,28 @@
     width: 80vw;
   }
 
+  .footer__container_logo_links {
+    display: flex;
+    justify-content: space-between;
+    width: 38vw;
+    align-items: flex-start;
+   
+  }
+
   .footer__logo {
     display: flex;
     align-items: center;
+  }
+
+  .footer_container_links {
+    
   }
 
   .footer__links {
     list-style: none;
     display: flex;
     flex-direction: column;
+    padding-inline-start: 0;
   }
 
   .footer__links_linkItem {
@@ -68,6 +81,30 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer__container {
+    width: 95vw;
+    
+    
+  }
+
+  .footer__container_logo_links {
+    flex-direction: column;  
+  }
+
+  
+  .footer__formulario {
+    width: 60vw;
+  }
+
+  .formulario__boton {
+    width: 15vw;
+    height: 1.5vh;
+    font-size: 0.9rem;
+    padding: 0.6rem;  
+    
+  }
+
+
 }
 
 @media screen and (max-width: 360px) {
