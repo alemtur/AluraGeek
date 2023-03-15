@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,8 +21,16 @@
               Alura<span class="cabecera__titulo_2">Geek</span>
             </h2>
             <div class="cabecera__div_input">
-              <input class="cabecera__input" type="text" placeholder="¿Qué deseas buscar?"/>
-              <img src="./img/home/search_icon.png" alt="Icono de búsqueda" class="cabecera__icono">
+              <input
+                class="cabecera__input"
+                type="text"
+                placeholder="¿Qué deseas buscar?"
+              />
+              <img
+                src="./img/home/search_icon.png"
+                alt="Icono de búsqueda"
+                class="cabecera__icono"
+              />
             </div>
           </div>
           <button class="cabecera__botonLogin">Login</button>
@@ -30,72 +38,106 @@
       </div>
       <div class="cabecera_sub__container">
         <div class="cabecera_sub">
-        <h1 class="cabecera_sub__titulo">Febrero Promocional</h1>
-        <h2 class="cabecera_sub__subtitulo">Productos seleccionados con 33% de descuento</h2>
-        <button class="cabecera_sub__botonVer">Ver Consolas</button>
-      </div>
+          <h1 class="cabecera_sub__titulo">Febrero Promocional</h1>
+          <h2 class="cabecera_sub__subtitulo">
+            Productos seleccionados con 33% de descuento
+          </h2>
+          <button class="cabecera_sub__botonVer">Ver Consolas</button>
+        </div>
       </div>
     </header>
     <main>
       <div class="linea_producto">
         <div class="linea_producto__header">
           <h2 class="linea_producto__titulo">Star Wars</h2>
-          <button class="linea_producto__boton"><a href="http://">Ver todo</a><img src="./img/home/arrow_icon.png" alt="Icono flecha" class="linea_producto__icono"></button>
+          <div class="linea_producto__boton">
+            <a href="http://">Ver todo</a
+            ><img
+              src="./img/home/arrow_icon.png"
+              alt="Icono flecha"
+              class="linea_producto__icono"
+            />
+          </div>
         </div>
         <div class="linea_producto__productos"></div>
       </div>
       <div class="linea_producto">
         <div class="linea_producto__header">
           <h2 class="linea_producto__titulo">Star Wars</h2>
-          <button class="linea_producto__boton"><a href="http://">Ver todo</a><img src="./img/home/arrow_icon.png" alt="Icono flecha" class="linea_producto__icono"></button>
+          <div class="linea_producto__boton">
+            <a href="http://">Ver todo</a
+            ><img
+              src="./img/home/arrow_icon.png"
+              alt="Icono flecha"
+              class="linea_producto__icono"
+            />
+          </div>
         </div>
         <div class="linea_producto__productos"></div>
       </div>
       <div class="linea_producto">
         <div class="linea_producto__header">
           <h2 class="linea_producto__titulo">Star Wars</h2>
-          <button class="linea_producto__boton"><a href="http://">Ver todo</a><img src="./img/home/arrow_icon.png" alt="Icono flecha" class="linea_producto__icono"></button>
+          <div class="linea_producto__boton">
+            <a href="http://">Ver todo</a
+            ><img
+              src="./img/home/arrow_icon.png"
+              alt="Icono flecha"
+              class="linea_producto__icono"
+            />
+          </div>
         </div>
         <div class="linea_producto__productos"></div>
       </div>
-     
     </main>
     <footer>
       <div class="footer">
-        <img src="" alt="" class="footer__logo" />
-        <ul class="footer__links">
-          <li class="footer__links_linkItem">Quienes somos</li>
-          <li class="footer__links_linkItem">Política de privacidad</li>
-          <li class="footer__links_linkItem">Programa de fidelidad</li>
-          <li class="footer__links_linkItem">Nuestras tiendas</li>
-          <li class="footer__links_linkItem">Quiero ser franquiciado</li>
-          <li class="footer__links_linkItem">Anuncie aquí</li>
-        </ul>
-        <form class="footer__formulario" action="">
-          <h3 class="footer__formulario_titulo">Hable con nosotros</h3>
-          <fieldset>
+        <div class="footer__container">
+          <div class="footer__logo">
+            <img
+              class="cabecera__imagen"
+              src="./img/home/logo_joys.png"
+              alt="Logo AluraGeek"
+            />
+            <h2 class="cabecera__titulo">
+              Alura<span class="cabecera__titulo_2">Geek</span>
+            </h2>
+          </div>
+          <ul class="footer__links">
+            <li class="footer__links_linkItem">Quienes somos</li>
+            <li class="footer__links_linkItem">Política de privacidad</li>
+            <li class="footer__links_linkItem">Programa de fidelidad</li>
+            <li class="footer__links_linkItem">Nuestras tiendas</li>
+            <li class="footer__links_linkItem">Quiero ser franquiciado</li>
+            <li class="footer__links_linkItem">Anuncie aquí</li>
+          </ul>
+          <form class="footer__formulario" action="">
+            <h4 class="footer__formulario_titulo">Hable con nosotros</h4>
+
             <input
               type="text"
-              class="footer__formulario_nombre"
+              class="formulario__nombre"
               placeholder="Nombre"
             />
             <textarea
               name=""
               id=""
               cols="30"
-              rows="10"
-              class="footer__formulario_mensaje"
+              rows="5"
+              class="formulario__mensaje"
               placeholder="Escribe tu mensaje"
             ></textarea>
-          </fieldset>
-          <button class="footer__formulario_boton">Enviar mensaje</button>
-        </form>
+
+            <button class="formulario__boton">Enviar mensaje</button>
+          </form>
+        </div>
       </div>
+
       <div class="leyenda">
-        <h3 class="copyright">
+        <p class="copyright">
           Desarrollado por Alejandro Turtola para Alura Latam
-        </h3>
-        <h4 class="year">2023</h4>
+        </p>
+        <p class="year">2023</p>
       </div>
     </footer>
     <script></script>
