@@ -8,28 +8,23 @@
     background-color: #f5f5f5;
   }
 
-  .productos__container {
-    display: flex;
-    flex-direction: column;
-    width: 80vw;
-    height: 70vh;
-    align-items: flex-start;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    
+  .productos_abm__container {
+    width: 40vw;
   }
 
-  .productos__header {
+  .productos_abm__formulario {
     display: flex;
-    width: 80vw;
-    justify-content: space-between;
-    margin-bottom: 0.5vh;
-    align-items: center;
+    flex-direction: column;    
   }
 
-  .productos__botonAgregarProducto {
+  .productos_abm__formulario > .input {
+    margin-bottom: 1rem;
+    height: 6vh;
+  }
+
+  .productos_abm__botonAgregarProducto {
     all: unset;
-    width: 10vw;
+    
     height: 3vh;
     font-size: 1.2rem;
     text-align: center;
@@ -39,24 +34,16 @@
     background-color: #2a7ae4;
     color: white;
     transition: background-color 0.5s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
-  .productos__botonAgregarProducto:hover {
+  .productos_abm__botonAgregarProducto:hover {
     background-color: red;
     color: white;
   }
 
-  .productos__contenido {
-    
-    width: 80vw;
-  }
-
-  .productos__productos {
-    background-color: aliceblue;
-    width: 80vw;
-    height: 20vh;
-    margin-bottom: 1rem;
-  }
+  
 
 
 }
