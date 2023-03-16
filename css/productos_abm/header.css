@@ -118,9 +118,16 @@
 
   .cabecera__div_input {
     background-color: white;
+    width: 3.5vw;
   }
 
   .cabecera__input {
     display: none;
+  }
+
+  .cabecera__botonMenuAdministrador {
+    width: 65vw;
+    height: 1vh;
+    font-size: 0.9rem;
   }
 }
