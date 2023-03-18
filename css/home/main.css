@@ -29,23 +29,38 @@
     height: 2vh;
     margin-left: 0.5rem;
   }
+
+  .linea_producto {
+    display: flex;
+  }
+
+  .linea_producto__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .linea_producto__producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .linea_producto__listaproducto {
+    list-style: none;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    margin-top: 1vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
-
   .linea_producto {
     width: 95vw;
-    
   }
-
 }
 
 @media screen and (max-width: 360px) {
-  
-  
-
   .linea_producto__icono {
     height: 0.8vh;
-    
   }
 }

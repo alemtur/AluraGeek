@@ -23,7 +23,7 @@
 
   .cabecera__titulo_busqueda {
     display: flex;
-    width: 100vw;
+    width: 10vw;
     align-items: center;
   }
 
@@ -45,6 +45,7 @@
     background: gainsboro;
     height: 3vh;
     width: 20vw;
+    margin-right: 30vw;
     align-items: center;
     justify-content: space-between;
     border-radius: 30px;
@@ -149,7 +150,7 @@
   }
 
   .cabecera__botonLogin {
-    height: 1.5vh;
+    height: 1.2vh;
     font-size: 0.9rem;
     text-align: center;
     border-style: solid;
@@ -157,7 +158,6 @@
     padding: 0.6rem;
     background-color: white;
     color: #2a7ae4;
-    transition: background-color 0.5s;
   }
 
   /* CABECERA SUB */
@@ -181,24 +181,31 @@
 }
 
 @media screen and (max-width: 360px) {
-  
   /* CABECERA */
-    .cuerpo__cabecera {
+  .cuerpo__cabecera {
     height: 3vh;
   }
 
   .cabecera__div_input {
     background-color: white;
+    order: 3;
+    margin-right: 0;
+    width: 5.5vw;
   }
 
   .cabecera__input {
     display: none;
   }
 
+  .cabecera__botonLogin {
+    order: 2;
+    height: 0.5vh;
+    width: 25vw;
+  }
+
   /* CABECERA SUB */
   .cabecera_sub__container {
     height: 13vh;
-    
   }
 
   .cabecera_sub__titulo {
@@ -215,6 +222,4 @@
     font-size: 0.8rem;
     padding: 0.6rem;
   }
-
-
 }
