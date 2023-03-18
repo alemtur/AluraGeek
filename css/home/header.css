@@ -140,12 +140,15 @@
     justify-content: space-between;
   }
 
+  .cabecera__titulo_busqueda {
+    margin-right: 1rem;
+  }
+
   .cabecera__imagen {
     height: 30px;
   }
 
   .cabecera__titulo {
-    margin-right: 1rem;
     color: #2a7ae4;
   }
 
@@ -184,6 +187,10 @@
   /* CABECERA */
   .cuerpo__cabecera {
     height: 3vh;
+  }
+
+  .cabecera__titulo_busqueda {
+    margin-right: 7rem;
   }
 
   .cabecera__div_input {

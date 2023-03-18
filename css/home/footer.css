@@ -25,7 +25,6 @@
   .footer__logo {
     display: flex;
     align-items: center;
-    margin-top: 1vh;
   }
 
   .footer__links {
@@ -106,6 +105,10 @@
   .footer__container_logo_links {
     width: 60vw;
     align-items: center;
+  }
+
+  .footer__logo {
+    width: 40vw;
   }
 
   .footer_container_links {
