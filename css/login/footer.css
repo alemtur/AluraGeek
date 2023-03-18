@@ -20,15 +20,12 @@
     justify-content: space-between;
     width: 38vw;
     align-items: flex-start;
-   
   }
 
   .footer__logo {
     display: flex;
     align-items: center;
   }
-
-  
 
   .footer__links {
     list-style: none;
@@ -81,15 +78,12 @@
 @media screen and (max-width: 768px) {
   .footer__container {
     width: 95vw;
-    
-    
   }
 
   .footer__container_logo_links {
-    flex-direction: column;  
+    flex-direction: column;
   }
 
-  
   .footer__formulario {
     width: 60vw;
   }
@@ -98,11 +92,8 @@
     width: 15vw;
     height: 1.5vh;
     font-size: 0.9rem;
-    padding: 0.6rem;  
-    
+    padding: 0.6rem;
   }
-
-
 }
 
 @media screen and (max-width: 360px) {
@@ -116,6 +107,14 @@
     align-items: center;
   }
 
+  .footer__logo {
+    width: 40vw;
+  }
+
+  .footer_container_links {
+    text-align: center;
+  }
+
   .footer_container_form {
     width: 95vw;
   }
@@ -127,7 +126,5 @@
   .formulario__boton {
     width: 25vw;
     height: 1vh;
-       
   }
-
 }
