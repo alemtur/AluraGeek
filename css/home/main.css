@@ -57,10 +57,22 @@
   .linea_producto {
     width: 95vw;
   }
+
+  .linea_producto__container {
+    flex-wrap: wrap;
+  }
+
+  .hide {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 360px) {
   .linea_producto__icono {
     height: 0.8vh;
+  }
+
+  .linea_producto__producto {
+    width: 45vw;
   }
 }
