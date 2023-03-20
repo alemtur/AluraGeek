@@ -41,17 +41,21 @@
     </header>
     <main>
       <div class="form__container">
-        <form action="" class="form__formulario">
+        <form action="" class="form__formulario" data-form>
           <h3 class="form__cabecera">Iniciar Sesión</h3>
           <input
             type="email"
             class="form__input_email"
             placeholder="Escriba su correo electrónico"
+            required
+            data-email
           />
           <input
             type="password"
             class="form__input_password"
             placeholder="Escriba su contraseña"
+            required
+            data-password
           />
           <button class="form__submit">Entrar</button>
         </form>
@@ -113,6 +117,6 @@
         <p class="year">2023</p>
       </div>
     </footer>
-    <script></script>
+    <script type="module" src="./js/login.js"></script>
   </body>
 </html>
