@@ -12,20 +12,60 @@
     width: 40vw;
   }
 
+  .productos_abm__formulario_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .productos_abm__formulario {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 40vw;
+  }
+
+  .productos_abm__preview {
+    width: 20vw;
+    height: 20vh;
+    background-color: cadetblue;
+  }
+
+  .productos_abm__elegirImagen {
+    all: unset;
+    height: 3vh;
+    width: 18vw;
+    font-size: 1.2rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.01rem;
+    padding: 1rem;
+    background-color: #2a7ae4;
+    color: white;
+    transition: background-color 0.5s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .productos_abm__elegirImagen:hover {
+    background-color: red;
+    color: white;
   }
 
   .productos_abm__formulario > .input {
     margin-bottom: 1rem;
     height: 6vh;
+    width: 40vw;
+  }
+
+  .productos_abm__descripcionProducto {
+    width: 40vw;
   }
 
   .productos_abm__botonAgregarProducto {
     all: unset;
-
     height: 3vh;
+    width: 40vw;
     font-size: 1.2rem;
     text-align: center;
     border-style: solid;
