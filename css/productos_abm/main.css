@@ -94,6 +94,27 @@
   .productos_abm__tituloFormulario {
     font-size: 1.5rem;
   }
+
+  .productos_abm__formulario {
+    width: 80vw;
+  }
+
+  .productos_abm__preview {
+    height: 12vh;
+  }
+
+  .productos_abm__formulario > .input {
+    height: 2vh;
+    width: 95vw;
+  }
+
+  .productos_abm__descripcionProducto {
+    width: 95vw;
+  }
+
+  .productos_abm__botonAgregarProducto {
+    width: 95vw;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -102,13 +123,32 @@
     margin-bottom: 0vh;
   }
 
+  .productos_abm__formulario {
+    width: 95vw;
+  }
+
   .productos_abm__tituloFormulario {
     font-size: 1.3rem;
+  }
+
+  .productos_abm__preview {
+    height: 4vh;
+    width: 30vw;
+  }
+
+  .productos_abm__elegirImagen {
+    height: 1vh;
+    width: 35vw;
   }
 
   .productos_abm__formulario > .input {
     margin-bottom: 1rem;
     height: 2vh;
+    width: 90vw;
+  }
+
+  .productos_abm__descripcionProducto {
+    width: 90vw;
   }
 
   .productos_abm__botonAgregarProducto {

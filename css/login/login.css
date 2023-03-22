@@ -1,9 +1,7 @@
-body {  
-    
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
 @media screen and (max-width: 1440px) {
 }
