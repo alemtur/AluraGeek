@@ -6,6 +6,8 @@
     background-color: aliceblue;
     margin-top: 1rem;
     justify-content: center;
+    align-items: center;
+    height: 38vh;
   }
 
   .footer__container {
@@ -76,6 +78,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer {
+    height: 50vh;
+  }
+
   .footer__container {
     width: 95vw;
   }
@@ -97,6 +103,10 @@
 }
 
 @media screen and (max-width: 360px) {
+  .footer {
+    height: 63vh;
+  }
+
   .footer__container {
     flex-direction: column;
     align-items: center;
@@ -105,6 +115,8 @@
   .footer__container_logo_links {
     width: 60vw;
     align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
 
   .footer__logo {
@@ -119,8 +131,20 @@
     width: 95vw;
   }
 
+  .footer_container_form {
+    margin-bottom: 5vh;
+  }
+
   .footer__formulario {
     width: 95vw;
+  }
+
+  .formulario__nombre {
+    height: 2vh;
+  }
+
+  .formulario__mensaje {
+    height: 10vh;
   }
 
   .formulario__boton {

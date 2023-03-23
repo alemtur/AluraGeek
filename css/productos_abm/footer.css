@@ -97,6 +97,11 @@
 }
 
 @media screen and (max-width: 360px) {
+  .footer {
+    height: 47vh;
+    align-items: center;
+  }
+
   .footer__container {
     flex-direction: column;
     align-items: center;

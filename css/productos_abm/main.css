@@ -118,6 +118,11 @@
 }
 
 @media screen and (max-width: 360px) {
+  main {
+    height: 45vh;
+    justify-content: center;
+  }
+
   .productos_abm__container {
     margin-top: 0vh;
     margin-bottom: 0vh;

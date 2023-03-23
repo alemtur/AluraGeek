@@ -71,6 +71,11 @@
 }
 
 @media screen and (max-width: 360px) {
+  main {
+    height: 52vh;
+    justify-content: center;
+  }
+
   .detalle__container {
     margin-top: 1rem;
     margin-bottom: 1rem;

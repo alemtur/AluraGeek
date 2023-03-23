@@ -97,9 +97,14 @@
 }
 
 @media screen and (max-width: 360px) {
+  .footer {
+    height: 30vh;
+  }
+
   .footer__container {
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
   }
 
   .footer__container_logo_links {
